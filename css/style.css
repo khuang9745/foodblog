@@ -1,0 +1,124 @@
+body{
+	background-color:  #FFFFFF;
+	color:  #000000;
+	font-family:  American Typewriter, "Times New Roman" ;
+	margin-top: 25px;
+	margin-right: 25px;
+	margin-left: 25px;
+}
+
+h1{
+	font-size: 48px;
+	text-align: center;
+	padding: 15px;
+}
+
+h2{
+	font-size: 36px;
+	text-align: center;
+	padding: 15px;
+
+}
+p{
+	font-size: 24px;
+	padding: 15px;
+	font-family: American Typewriter;
+}
+
+
+
+img{
+	width: 300px;
+	height: 300px;
+	border: 10px solid #000000;
+	border-radius: 10px;
+	/*display: block;
+	margin-left:  auto;
+	margin-right: auto; */
+	padding: 25px;
+	margin: 25px;
+
+}
+
+nav{
+	border: 5px solid #000000;
+	margin:  10px 0;
+	padding: 10px;
+	font-family: American Typewriter;
+	font-size: 24px;
+	line-height: 1.5;
+}
+
+/*.container1{
+	display: grid;
+	position: relative;
+	margin: auto;
+	grid-template-areas: "slupringturtle slupringturtle slupringturtle"
+						"owl owl owl"
+						"ajishin ajishin ajishin";
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr; */
+
+
+.slurpingturtle{
+	display: grid;
+	position: relative;
+	margin: auto;
+	column-gap: 100px;
+	grid-template-areas: "slurpingturtle slurpingturtle slurpingturtle";
+	grid-template-columns: 1fr 1fr 1fr;
+} 
+
+
+/*.owlp{
+	grid-area: owlp;
+}
+*/
+
+.owl{
+	display: grid;
+	position: relative;
+	margin: auto;
+	column-gap: 100px;
+	grid-template-areas: "owl owl owl";
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+/*.ajishinp{
+	grid-area: ajishinp;
+}
+*/
+
+.ajishin{
+	display: grid;
+	position: relative;
+	margin: auto;
+	column-gap: 100px;
+	grid-template-areas: "ajishin ajishin ajishin";
+	grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+
+a:hover{
+	background-color: whitesmoke;
+}
+
+a:link{
+	color: mediumblue;
+}
+
+a:visited{
+	color: mediumpurple;
+}
+
+img:hover{
+	background-color: whitesmoke;
+}
+
+.active {
+	font-family: Verdana;
+
+}
+
+ul li:
