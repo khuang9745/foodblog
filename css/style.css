@@ -11,6 +11,7 @@ h1{
 	font-size: 48px;
 	text-align: center;
 	padding: 15px;
+	font-family: "Sofia", American Typewriter;
 }
 
 h2{
@@ -47,6 +48,7 @@ nav{
 	font-family: American Typewriter;
 	font-size: 24px;
 	line-height: 1.5;
+	background-image: url("../images/wood.jpeg");
 }
 
 /*.container1{
@@ -105,11 +107,11 @@ a:hover{
 }
 
 a:link{
-	color: mediumblue;
+	color: black;
 }
 
 a:visited{
-	color: mediumpurple;
+	color: darkblue;
 }
 
 img:hover{
@@ -120,3 +122,59 @@ img:hover{
 	font-family: Verdana;
 
 }
+
+/*form*/
+fieldset{
+	text-align:center;
+}
+
+#transition {
+	position:relative;
+	height:281px;
+	width:450px;
+	margin:0 auto;
+  }
+  
+  #transition img {
+	position:absolute;
+	left:0;
+	-webkit-transition: opacity 1s ease-in-out;
+	-moz-transition: opacity 1s ease-in-out;
+	-o-transition: opacity 1s ease-in-out;
+	transition: opacity 1s ease-in-out;
+  }
+  
+  #transition img.top:hover {
+	opacity:0;
+  }
+
+
+@media screen and (min-width: 700px){
+	nav{
+	  /*padding-top: 35px;
+	  text-align: right; */
+	}
+
+
+}
+
+
+
+/* copied from hw 3 */
+@media screen and (prefers-reduced-motion: reduce){
+	/*Turn off scroll*/
+	html{
+	  scroll-behavior: auto; /* Removes scroll animation */
+	}
+  
+	/*Turn off transition*/
+	a.skip {
+	  -webkit-transition: initial; /* sets to default setting */
+	  transition: initial; /* sets to default setting */
+	}
+  
+	/*Turn off parallax*/
+	.intro{
+	  background-attachment: initial;
+	}
+  }
