@@ -9,6 +9,14 @@
   <link rel="stylesheet" type="text/css" href="css/html5reset.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
 
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+  <style>
+	  h1{
+		font-family: "Sofia", "Times New Roman";
+	  }
+	</style>
+  <script src="https://kit.fontawesome.com/5a1112ce3b.js" crossorigin="anonymous"></script>
+
  <title>Kevin's Restaurant Tour!</title>	
 
 </head>
@@ -18,11 +26,25 @@
 	<header>
 		<nav>
 			<ul>
-				<li class="active"><a href = "index.html" >Main Page</a></li>
-				<li><a href = "americanfood.html">My Favorite American Restaurants</a></li>
-				<li><a href = "asianfood.html">My Favorite Asian Restaurants</a></li>
-				<li><a href = "bestbargain.html">Kevin's Bang For A Buck</a></li>
-				<li><a href = "favoritefoods.html">Kevin's All Time Favorites</a></li>
+				<li class="active"><a href = "index.html">Main Page</a>
+					<span style="font-size: 1em; color: white; display:inline;">
+					<i class="fa-solid fa-bowl-food"></i>
+					
+				<li><a href = "americanfood.html">My Favorite American Restaurants</a>
+					<span style="font-size: 1em; color: white; display:inline;">
+					<i class="fa-solid fa-burger"></i></li>
+
+				<li><a href = "asianfood.html">My Favorite Asian Restaurants</a
+					><span style="font-size: 1em; color: white; display:inline;">
+						<i class="fa-solid fa-bowl-rice"></i></li>
+
+				<li><a href = "bestbargain.html">Kevin's Bang For A Buck</a>
+					<span style="font-size: 1em; color: white; display:inline;">
+						<i class="fa-regular fa-money-bill-1"></i></li>
+
+				<li><a href = "favoritefoods.html">Kevin's All Time Favorites</a>
+					<span style="font-size: 1em; color: white; display:inline;">
+					<i class="fa-solid fa-star"></i></li>
 			</ul>
 		</nav>
 
@@ -42,18 +64,33 @@
 			For now, this page is under construction. But feel free to check back in during the semester
 			to see what the new restaurants I add and the page come to life! (For the graders, Kevin's All
 			Time Favorites is the page that holds 9 images)
+		
 		</p>
 
 
 
 
 
-
-
+	
 	</main>
 	<footer>
 
 		<p> Kevin Huang &copy; 2022</p>
+
+		<form action="#" method = "post">
+			<fieldset> 
+				<legend>Contact Me:</legend>
+				<label for="name">Name</label>
+				<input type="text" id = "name"><br/>
+				<label> Email: 
+					<input type="email" value = "email@umich.edu">
+				</label><br/>
+				<label for="birth">Date of birth:</label>
+				<input type="date" id = "birth"><br>
+				<input type = "submit" value = "Save!">
+			</fieldset>
+		</form>
+		
 
 	</footer>
 </body>
