@@ -1,4 +1,4 @@
-@media screen and (max-width: 1500px){
+@media screen and (max-width: 767px){
 		body{
 			background-color:  #2E8B57;
 			color:  #000000;
@@ -620,17 +620,9 @@ fieldset{
   }
 
 
-@media screen and (max-width: 700px){
+@media screen and (min-width: 700px){
 	nav{
 	  padding: 15px;
-	}
-
-	.ihop{
-		display: inline-flex;
-		flex-direction: row;
-		justify-content: center;
-		align-items: baseline;
-		flex-basis:auto;
 	}
 
 	fieldset{
@@ -660,10 +652,88 @@ fieldset{
 	.gallery{
 		grid-auto-flow: dense;
 	}
+
+	.pancheros{
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		gap: 15px;
+	
+	}
+	
+	.embers{
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		gap: 15px;
+	}
+	
+	.madras{
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		gap: 15px;
+	}
+	
+	.totoro{
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		gap: 15px;
+	}
+	
+	.ihopflex{
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		gap: 15px;
+	}
 	
 
 
 
+
+}
+@media screen and (min-width: 1000px){
+	.gallery{
+		grid-auto-flow: dense;
+	}
+
+	.pancheros{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		gap: 15px;
+	
+	}
+	
+	.embers{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		gap: 15px;
+	}
+	
+	.madras{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		gap: 15px;
+	}
+	
+	.totoro{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		gap: 15px;
+	}
+	
+	.ihopflex{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		gap: 15px;
+	}
 
 }
 
