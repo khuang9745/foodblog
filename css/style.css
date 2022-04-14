@@ -1,486 +1,485 @@
-@media screen and (max-width: 767px){
-		body{
-			background-color:  #2E8B57;
-			color:  #000000;
-			font-family:  American Typewriter, "Times New Roman" ;
-			margin-top: 25px;
-			margin-right: 25px;
-			margin-left: 25px;
-		}
 
-		h1{
-			font-size: 48px;
-			text-align: center;
-			padding: 15px;
-			font-family: "Sofia", "Times New Roman";
-			color: white;
-		}
-
-		h2{
-			font-size: 36px;
-			text-align: center;
-			padding: 15px;
-			color: white;
-			font-family: "Sofia", "Times New Roman";
-
-		}
-
-
-		ol {
-			color: white;
-			list-style-position: inside;
-			list-style-type: decimal;
-
-		}
-
-		p{
-			font-size: 24px;
-			padding: 15px;
-			font-family: American Typewriter;
-			text-align: center;
-			color: white;
-		}
-
-
-
-		img{
-			/*width: 300px; */
-			width: 100%;
-			height: 300px;
-			border: 10px solid #000000;
-			border-radius: 10px; 
-			display: block;
-			margin-left:  auto;
-			margin-right: auto;
-			/*padding: 25px;
-			margin: 25px;  */
-			
-
-		}
-
-		nav{
-			border: 5px solid #000000;
-			margin:  10px 0;
-			padding: 10px;
-			font-family: American Typewriter;
-			font-size: 24px;
-			line-height: 1.5;
-			background-image: url("../images/wood.jpeg");
-		}
-
-		.congeegrid{
-			display: grid;
-			grid-template-columns: repeat(3, 1fr);
-			grid-template-rows: repeat(8, 5vw);
-			grid-gap: 25px;
-			
-		}
-
-		.ingredients{
-			font-size: 25px;
-			grid-column-start: 1;
-			grid-column-end: 2;
-			grid-row-start: 1;
-			grid-row-end: 4;
-		}
-
-		.instructions{
-			font-size: 25px;
-			line-height: 1.5;
-			grid-column-start: 1;
-			grid-column-end: 2;
-			grid-row-start: 4;
-			grid-row-end: 8;
-		}
-
-		.ingredients_laksa{
-			color: white;
-			font-size: 25px;
-			grid-column-start: 1;
-			grid-column-end: 2;
-			grid-row-start: 1;
-			grid-row-end: 3;
-		}
-
-		.instructions_laksa{
-			font-size: 25px;
-			line-height: 1.5;
-			grid-column-start: 1;
-			grid-column-end: 2;
-			grid-row-start: 5;
-			grid-row-end: 8;
-		}
-
-		.congee_img{
-			width:100%;
-			height:100%;
-			grid-column-start: 2;
-			grid-column-end: 3;
-			grid-row-start: 3;
-			grid-row-end: 7;
-		}
-
-		.laksa_img{
-			grid-column-start: 3;
-			grid-column-end: 3;
-			grid-row-start: 3;
-			grid-row-end: 7;
-			width:100%;
-			height:100%;
-		}
-
-		.laksapaste_img{
-			grid-column-start: 2;
-			grid-column-end: 2;
-			grid-row-start: 3;
-			grid-row-end: 7;
-			width:100%;
-			height:100%;
-		}
-		.laksagrid {
-			display: grid;
-			grid-template-columns: repeat(3, 1fr);
-			grid-template-rows: repeat(8, 5vw);
-			grid-gap: 25px;
-			
-		}
-
-		.ingredient_p{
-			text-align: center;
-		}
-
-		.instructions_label{
-			text-align:left;
-		}
-
-		.ingredients{
-			list-style-type: "→ ";
-			list-style-position: inside;
-			color: white;
-		}
-
-		.ingredients_laksa{
-			list-style-type: "→ ";
-			list-style-position: inside;
-			color: white;
-		}
-
-		.ingredient_label{
-			text-align:left;
-		}
-
-		.parallax_laksa{
-			background-image: url("../images/malaysia.jpeg");
-			min-height:500px;
-			background-attachment: fixed;
-			background-position: center;
-			background-repeat: no-repeat;
-			background-size: cover;
-		}
-
-		.parallax_congee{
-			background-image: url("../images/china.webp");
-			min-height:500px;
-			background-attachment: fixed;
-			background-position: center;
-			background-repeat: no-repeat;
-			background-size: cover;
-		}
-
-		.gallery {
-			display: grid;
-			grid-template-columns: repeat(8, 1fr);
-			grid-template-rows: repeat(50, 5vw);
-			grid-gap: 25px;
-		}
-
-		.gallery__img {
-			width: 100%;
-			height: 100%;
-			object-fit: cover;
-		}
-
-		.gallery__item--1 {
-			grid-column-start: 1;
-			grid-column-end: 3;
-			grid-row-start: 1;
-			grid-row-end: 3;
-		}
-
-		.gallery__item--2 {
-			grid-column-start: 3;
-			grid-column-end: 5;
-			grid-row-start: 1;
-			grid-row-end: 3;
-		}
-
-		.gallery__item--3 {
-			grid-column-start: 5;
-			grid-column-end: 9;
-			grid-row-start: 1;
-			grid-row-end: 6;
-		}
-
-		.gallery__item--4 {
-			grid-column-start: 1;
-			grid-column-end: 5;
-			grid-row-start: 3;
-			grid-row-end: 9;
-		}
-
-		.gallery__item--5 {
-			grid-column-start: 1;
-			grid-column-end: 5;
-			grid-row-start: 9;
-			grid-row-end: 15;
-		}
-
-		.gallery__item--6 {
-			grid-column-start: 5;
-			grid-column-end: 9;
-			grid-row-start: 6;
-			grid-row-end: 9;
-		}
-
-		.gallery__item--7 {
-			grid-column-start: 5;
-			grid-column-end: 9;
-			grid-row-start: 9;
-			grid-row-end: 12;
-		}
-
-
-		.gallery__item--8 {
-			grid-column-start: 1;
-			grid-column-end: 5;
-			grid-row-start: 15;
-			grid-row-end: 21;
-		}
-
-		.gallery__item--9 {
-			grid-column-start: 5;
-			grid-column-end: 7;
-			grid-row-start: 12;
-			grid-row-end: 15;
-		}
-
-
-		.gallery__item--10 {
-			grid-column-start: 7;
-			grid-column-end: 9;
-			grid-row-start: 12;
-			grid-row-end: 15;
-		}
-
-		.gallery__item--11 {
-			grid-column-start: 5;
-			grid-column-end: 7;
-			grid-row-start: 15;
-			grid-row-end: 21;
-		}
-
-		.gallery__item--12 {
-			grid-column-start: 7;
-			grid-column-end: 9;
-			grid-row-start: 15;
-			grid-row-end: 21;
-		}
-
-		.gallery__item--13 {
-			grid-column-start: 1;
-			grid-column-end: 7;
-			grid-row-start: 21;
-			grid-row-end: 27;
-		}
-
-		.gallery__item--14 {
-			grid-column-start: 7;
-			grid-column-end: 9;
-			grid-row-start: 21;
-			grid-row-end: 27;
-		}
-
-		.gallery__item--15 {
-			grid-column-start: 1;
-			grid-column-end: 3;
-			grid-row-start: 27;
-			grid-row-end: 30;
-		}
-
-		.gallery__item--16 {
-			grid-column-start: 3;
-			grid-column-end: 5;
-			grid-row-start: 27;
-			grid-row-end: 30;
-		}
-
-		.gallery__item--17 {
-			grid-column-start: 7;
-			grid-column-end: 9;
-			grid-row-start: 27;
-			grid-row-end: 33;
-		}
-
-		.gallery__item--18 {
-			grid-column-start: 5;
-			grid-column-end: 7;
-			grid-row-start: 27;
-			grid-row-end: 30;
-		}
-
-		.gallery__item--19 {
-			grid-column-start: 1;
-			grid-column-end: 7;
-			grid-row-start: 30;
-			grid-row-end: 36;
-		}
-
-		.gallery__item--20 {
-			grid-column-start: 1;
-			grid-column-end: 5;
-			grid-row-start: 36;
-			grid-row-end: 40;
-		}
-
-		.gallery__item--21 {
-			grid-column-start: 5;
-			grid-column-end: 9;
-			grid-row-start: 36;
-			grid-row-end: 40;
-		}
-
-		.gallery__item--22 {
-			grid-column-start: 1;
-			grid-column-end: 9;
-			grid-row-start: 40;
-			grid-row-end: 50;
-		}
-
-		.gallery__item--23 {
-			grid-column-start: 7;
-			grid-column-end: 9;
-			grid-row-start: 33;
-			grid-row-end: 36;
-		}
-		/*recipes for congee and laksa*/
-
-		.recipe {
-			display: grid;
-			grid-template-columns: repeat(4, 1fr);
-			grid-template-rows: repeat(5, 5vw);
-			grid-gap: 50px;
-		}
-
-		.recipe__img {
-			width: 100%;
-			height: 100%;
-			object-fit: cover;
-		}
-
-		.recipe_laksa {
-			grid-column-start: 1;
-			grid-column-end: 3;
-			grid-row-start: 2;
-			grid-row-end: 4;
-			text-align:center;
-		}
-
-		.recipe_congee{
-			grid-column-start: 3;
-			grid-column-end: 5;
-			grid-row-start: 2;
-			grid-row-end: 4;
-			text-align:center;
-		}
-
-		.caption {
-			display: block;
-		}
-
-		.recipe_img:hover{
-			opacity: .75;
-		}
-		.recipe_congee:hover{
-			opacity: .75;
-		}
-
-		.recipe_laksa:hover{
-			opacity: .75;
-		}
-
-		.recipe_img {
-		opacity: 1;
-		transition: .5s ease;
-		background-color: #008CBA;
-		}
-
-
-		body {
-			overflow-x: hidden;
-		}
+	body{
+		background-color:  #2E8B57;
+		color:  #000000;
+		font-family:  American Typewriter, "Times New Roman" ;
+		margin-top: 25px;
+		margin-right: 25px;
+		margin-left: 25px;
+	}
+
+	h1{
+		font-size: 48px;
+		text-align: center;
+		padding: 15px;
+		font-family: "Sofia", "Times New Roman";
+		color: white;
+	}
+
+	h2{
+		font-size: 36px;
+		text-align: center;
+		padding: 15px;
+		color: white;
+		font-family: "Sofia", "Times New Roman";
+
+	}
+
+
+	ol {
+		color: white;
+		list-style-position: inside;
+		list-style-type: decimal;
+
+	}
+
+	p{
+		font-size: 24px;
+		padding: 15px;
+		font-family: American Typewriter;
+		text-align: center;
+		color: white;
+	}
+
+
+
+	img{
+		/*width: 300px; */
+		width: 100%;
+		height: 300px;
+		border: 10px solid #000000;
+		border-radius: 10px; 
+		display: block;
+		margin-left:  auto;
+		margin-right: auto;
+		/*padding: 25px;
+		margin: 25px;  */
 		
-		.section-one {
-			background-color: #5FC18B;
-			position: relative;
-			padding: 150px 0 300px;
-		}
-			
-			.section-one__title {
-			color: #fff;
-			font-size: 50px;
-			margin-bottom: 30px;
-			text-align: center;
-			}
-			.section-one__descr{
-			color: #fff;
-			font-size: 20px;
-			line-height: 1.5;
-			max-width: 400px;
-			margin: 0 auto;
-			text-align: center;
-			}
 
+	}
+
+	nav{
+		border: 5px solid #000000;
+		margin:  10px 0;
+		padding: 10px;
+		font-family: American Typewriter;
+		font-size: 24px;
+		line-height: 1.5;
+		background-image: url("../images/wood.jpeg");
+	}
+
+	.congeegrid{
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-template-rows: repeat(8, 5vw);
+		grid-gap: 25px;
 		
-		.section-two {
-			background-color: #44a36f;
-			padding: 100px 0 200px;
-			position: relative;
-			z-index: 10;
+	}
+
+	.ingredients{
+		font-size: 25px;
+		grid-column-start: 1;
+		grid-column-end: 2;
+		grid-row-start: 1;
+		grid-row-end: 4;
+	}
+
+	.instructions{
+		font-size: 25px;
+		line-height: 1.5;
+		grid-column-start: 1;
+		grid-column-end: 2;
+		grid-row-start: 4;
+		grid-row-end: 8;
+	}
+
+	.ingredients_laksa{
+		color: white;
+		font-size: 25px;
+		grid-column-start: 1;
+		grid-column-end: 2;
+		grid-row-start: 1;
+		grid-row-end: 3;
+	}
+
+	.instructions_laksa{
+		font-size: 25px;
+		line-height: 1.5;
+		grid-column-start: 1;
+		grid-column-end: 2;
+		grid-row-start: 5;
+		grid-row-end: 8;
+	}
+
+	.congee_img{
+		width:100%;
+		height:100%;
+		grid-column-start: 2;
+		grid-column-end: 3;
+		grid-row-start: 3;
+		grid-row-end: 7;
+	}
+
+	.laksa_img{
+		grid-column-start: 3;
+		grid-column-end: 3;
+		grid-row-start: 3;
+		grid-row-end: 7;
+		width:100%;
+		height:100%;
+	}
+
+	.laksapaste_img{
+		grid-column-start: 2;
+		grid-column-end: 2;
+		grid-row-start: 3;
+		grid-row-end: 7;
+		width:100%;
+		height:100%;
+	}
+	.laksagrid {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-template-rows: repeat(8, 5vw);
+		grid-gap: 25px;
+		
+	}
+
+	.ingredient_p{
+		text-align: center;
+	}
+
+	.instructions_label{
+		text-align:left;
+	}
+
+	.ingredients{
+		list-style-type: "→ ";
+		list-style-position: inside;
+		color: white;
+	}
+
+	.ingredients_laksa{
+		list-style-type: "→ ";
+		list-style-position: inside;
+		color: white;
+	}
+
+	.ingredient_label{
+		text-align:left;
+	}
+
+	.parallax_laksa{
+		background-image: url("../images/malaysia.jpeg");
+		min-height:500px;
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	.parallax_congee{
+		background-image: url("../images/china.webp");
+		min-height:500px;
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	.gallery {
+		display: grid;
+		grid-template-columns: repeat(8, 1fr);
+		grid-template-rows: repeat(50, 5vw);
+		grid-gap: 25px;
+	}
+
+	.gallery__img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+
+	.gallery__item--1 {
+		grid-column-start: 1;
+		grid-column-end: 3;
+		grid-row-start: 1;
+		grid-row-end: 3;
+	}
+
+	.gallery__item--2 {
+		grid-column-start: 3;
+		grid-column-end: 5;
+		grid-row-start: 1;
+		grid-row-end: 3;
+	}
+
+	.gallery__item--3 {
+		grid-column-start: 5;
+		grid-column-end: 9;
+		grid-row-start: 1;
+		grid-row-end: 6;
+	}
+
+	.gallery__item--4 {
+		grid-column-start: 1;
+		grid-column-end: 5;
+		grid-row-start: 3;
+		grid-row-end: 9;
+	}
+
+	.gallery__item--5 {
+		grid-column-start: 1;
+		grid-column-end: 5;
+		grid-row-start: 9;
+		grid-row-end: 15;
+	}
+
+	.gallery__item--6 {
+		grid-column-start: 5;
+		grid-column-end: 9;
+		grid-row-start: 6;
+		grid-row-end: 9;
+	}
+
+	.gallery__item--7 {
+		grid-column-start: 5;
+		grid-column-end: 9;
+		grid-row-start: 9;
+		grid-row-end: 12;
+	}
+
+
+	.gallery__item--8 {
+		grid-column-start: 1;
+		grid-column-end: 5;
+		grid-row-start: 15;
+		grid-row-end: 21;
+	}
+
+	.gallery__item--9 {
+		grid-column-start: 5;
+		grid-column-end: 7;
+		grid-row-start: 12;
+		grid-row-end: 15;
+	}
+
+
+	.gallery__item--10 {
+		grid-column-start: 7;
+		grid-column-end: 9;
+		grid-row-start: 12;
+		grid-row-end: 15;
+	}
+
+	.gallery__item--11 {
+		grid-column-start: 5;
+		grid-column-end: 7;
+		grid-row-start: 15;
+		grid-row-end: 21;
+	}
+
+	.gallery__item--12 {
+		grid-column-start: 7;
+		grid-column-end: 9;
+		grid-row-start: 15;
+		grid-row-end: 21;
+	}
+
+	.gallery__item--13 {
+		grid-column-start: 1;
+		grid-column-end: 7;
+		grid-row-start: 21;
+		grid-row-end: 27;
+	}
+
+	.gallery__item--14 {
+		grid-column-start: 7;
+		grid-column-end: 9;
+		grid-row-start: 21;
+		grid-row-end: 27;
+	}
+
+	.gallery__item--15 {
+		grid-column-start: 1;
+		grid-column-end: 3;
+		grid-row-start: 27;
+		grid-row-end: 30;
+	}
+
+	.gallery__item--16 {
+		grid-column-start: 3;
+		grid-column-end: 5;
+		grid-row-start: 27;
+		grid-row-end: 30;
+	}
+
+	.gallery__item--17 {
+		grid-column-start: 7;
+		grid-column-end: 9;
+		grid-row-start: 27;
+		grid-row-end: 33;
+	}
+
+	.gallery__item--18 {
+		grid-column-start: 5;
+		grid-column-end: 7;
+		grid-row-start: 27;
+		grid-row-end: 30;
+	}
+
+	.gallery__item--19 {
+		grid-column-start: 1;
+		grid-column-end: 7;
+		grid-row-start: 30;
+		grid-row-end: 36;
+	}
+
+	.gallery__item--20 {
+		grid-column-start: 1;
+		grid-column-end: 5;
+		grid-row-start: 36;
+		grid-row-end: 40;
+	}
+
+	.gallery__item--21 {
+		grid-column-start: 5;
+		grid-column-end: 9;
+		grid-row-start: 36;
+		grid-row-end: 40;
+	}
+
+	.gallery__item--22 {
+		grid-column-start: 1;
+		grid-column-end: 9;
+		grid-row-start: 40;
+		grid-row-end: 50;
+	}
+
+	.gallery__item--23 {
+		grid-column-start: 7;
+		grid-column-end: 9;
+		grid-row-start: 33;
+		grid-row-end: 36;
+	}
+	/*recipes for congee and laksa*/
+
+	.recipe {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		grid-template-rows: repeat(5, 5vw);
+		grid-gap: 50px;
+	}
+
+	.recipe__img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+
+	.recipe_laksa {
+		grid-column-start: 1;
+		grid-column-end: 3;
+		grid-row-start: 2;
+		grid-row-end: 4;
+		text-align:center;
+	}
+
+	.recipe_congee{
+		grid-column-start: 3;
+		grid-column-end: 5;
+		grid-row-start: 2;
+		grid-row-end: 4;
+		text-align:center;
+	}
+
+	.caption {
+		display: block;
+	}
+
+	.recipe_img:hover{
+		opacity: .75;
+	}
+	.recipe_congee:hover{
+		opacity: .75;
+	}
+
+	.recipe_laksa:hover{
+		opacity: .75;
+	}
+
+	.recipe_img {
+	opacity: 1;
+	transition: .5s ease;
+	background-color: #008CBA;
+	}
+
+
+	body {
+		overflow-x: hidden;
+	}
+	
+	.section-one {
+		background-color: #5FC18B;
+		position: relative;
+		padding: 150px 0 300px;
+	}
+		
+		.section-one__title {
+		color: #fff;
+		font-size: 50px;
+		margin-bottom: 30px;
+		text-align: center;
 		}
-			.section-two__title {
-			color: #fff;
-			font-size: 50px;
-			margin-bottom: 30px;
-			text-align: center;
-			}
-			.section-two__descr {
-			color: #fff;
-			font-size: 20px;
-			line-height: 1.5;
-			max-width: 400px;
-			margin: 0 auto;
-			text-align: center;
-			}
-		
-		
-		/* -------------------------------------------------------------------------
-			begin Separator
-		* ------------------------------------------------------------------------- */
-		.separator {
-			bottom: -4px;
-			left: 0;
-			overflow: hidden;
-			position: absolute;
-		
-			width: 100%;
+		.section-one__descr{
+		color: #fff;
+		font-size: 20px;
+		line-height: 1.5;
+		max-width: 400px;
+		margin: 0 auto;
+		text-align: center;
 		}
-		/* -------------------------------------------------------------------------
-			end Separator
-		* ------------------------------------------------------------------------- */
-		
-		/* begin Media Max-Width 767
-		============================================================================ */
-}
+
+	
+	.section-two {
+		background-color: #44a36f;
+		padding: 100px 0 200px;
+		position: relative;
+		z-index: 10;
+	}
+		.section-two__title {
+		color: #fff;
+		font-size: 50px;
+		margin-bottom: 30px;
+		text-align: center;
+		}
+		.section-two__descr {
+		color: #fff;
+		font-size: 20px;
+		line-height: 1.5;
+		max-width: 400px;
+		margin: 0 auto;
+		text-align: center;
+		}
+	
+	
+	/* -------------------------------------------------------------------------
+		begin Separator
+	* ------------------------------------------------------------------------- */
+	.separator {
+		bottom: -4px;
+		left: 0;
+		overflow: hidden;
+		position: absolute;
+	
+		width: 100%;
+	}
+	/* -------------------------------------------------------------------------
+		end Separator
+	* ------------------------------------------------------------------------- */
+	
+	/* begin Media Max-Width 767
+	============================================================================ */
   @media screen and (max-width: 767px) {
 	.section-one {
 	  padding: 130px 0 190px;
