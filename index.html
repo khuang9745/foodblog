@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="shortcut icon" href="imgs/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="images/favicon.ico">
   <link rel="stylesheet" type="text/css" href="css/html5reset.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
 
@@ -32,6 +32,8 @@
 
 
 <body>
+	<a class="skip" href="main">Skip to Main</a>
+
 	<header>
 		<nav>
 			<ul>
@@ -57,10 +59,10 @@
 			</ul>
 		</nav>
 
-		<h1>Kevin's Restaurant Tour</h1>
-
 	</header>
-	<main>
+
+	<main class="container" id = "main">
+		<!--  
 		<p>
 			Welcome to my restuarant tour! I have compiled some of my favorite restaurants and foods
 			all around Michigan. From my hometown in Novi to the streets of Ann Arbor, these include
@@ -70,12 +72,171 @@
 		</p>
 
 		<p>
-			For now, this page is under construction. But feel free to check back in during the semester
-			to see what the new restaurants I add and the page come to life! (For the graders, Kevin's All
-			Time Favorites is the page that holds 9 images)
+			Join me on my journey to learn html and css and watch this page grow. From my favorite resaurants to my own
+			recipes and food adventure photo gallery, watch as I try and master the art of web design and accessibility. 
+			Feel free to leave your comments and cricitsm in the form at the bottom of the page, and don't forget to try
+			out some of my recommended restaurants or maybe make one of the recipes I've attempted this semester!
 		
 		</p>
 
+	-->
+
+		<div class="section-one">
+			<h1 class="section-one__title">Kevin's Restaurant Tour!</h1>
+			<p class="section-one__descr">Welcome to my restuarant tour! I have compiled some of my favorite restaurants and foods
+				all around Michigan. From my hometown in Novi to the streets of Ann Arbor, these include
+				some of my favorite ethnic foods as well as some spots I have found to be the best
+				bargain for college students. </p>
+			<!-- begin Separator -->
+			<div class="separator">
+
+			  <svg class="separator__svg" width="100%" height="400" viewBox="0 0 100 100" preserveAspectRatio="none" fill="#44A36F" version="1.1" xmlns="http://www.w3.org/2000/svg">
+				 <path d="M 100 100 V 10 L 0 100"/>
+				 <path d="M 30 73 L 100 18 V 10 Z" fill="#308355" stroke-width="0"/>
+				</svg>
+			</div>
+			<!-- end Separator -->
+
+		  </div>
+		  <div class="section-two">
+			<h1 class="section-two__title">Kevin's Personal Recipes!</h1>
+			<p class="section-two__descr">Inspired from recipes online, join me in making some of my favorite dishes I've attemped to cook this semester!
+				While I've made many pasta dishes including Spaghetti Carbonara, Shrimp Scampi, and Chicken Picatta, these are
+				two of the more interesting and challenging dishes I've tackled and would like to share with the world! 
+				Click on the picture below for my personal recipe</p>
+		  
+				<div class="recipe">
+					<figure class="recipe_item recipe_laksa">
+						<a href="laksa.html"><img src="images/laksa.jpg" class="recipe_img" alt = "Homemade Laksa Noodle Soup" style="width:50%"></a>
+						<p>
+							Homemade shrimp laksa noodle soup
+						</p>
+					</figure>
+		
+				
+					<figure class="recipe_item recipe_congee">
+						<a href="congee.html"><img src="images/congee.jpg" class="recipe_img" alt = "Homemade Congee, a Chinese dish based on rice" style="width:50%"></a>
+						<p>
+							Chinese chicken congee with cripsy pork and sauteed vegetables
+						</p>
+					</figure>
+				</div>
+				
+			</div>
+
+		<div class="intro_gallery">
+
+				<div class="flip-card">
+					<div class="flip-card-inner">
+					<div class="flip-card-front">
+						<img src="images/kidkevin.JPG" alt="Me as a small child" style="width:300px;height:300px;">
+					</div>
+					<div class="flip-card-back">
+						<h1>Kevin Huang</h1>
+						<p>Avid Food Lover and Food Explorer!</p>
+						<p>Hope You Like My Gallery!</p>
+					</div>
+					</div>
+				</div>
+			
+
+				<br><br><br>
+			<div class="intro_gallery_text">
+				<h1>
+					Kevin's Food Adventures
+				</h1>
+				<p>
+					Welcome to my food gallery!
+				</p>
+
+				
+				<p>
+					I have compiled a few of my favorite memories into a photo gallery to show off my mastery of grid!
+					Live through my food expierences ranging from my early childhood all the way to April 2022!
+					Food brings people together, so enjoy scrolling through some of my fondest and funniest memories!
+				</p>
+			</div>
+
+			<br><br><br>
+		</div>
+
+
+		<div class="gallery">
+			<figure class="gallery__item gallery__item--1">
+				<img src="images/hopcat.JPEG" class="gallery__img" alt="Image 1">
+			</figure>
+			<figure class="gallery__item gallery__item--2">
+				<img src="images/boyne.jpg" class="gallery__img" alt="Image 2">
+			</figure>
+			<figure class="gallery__item gallery__item--3">
+				<img src="images/pizza.JPG"class="gallery__img" alt="Image 3">
+			</figure>
+			<figure class="gallery__item gallery__item--4">
+				<img src="images/embers.jpg" class="gallery__img" alt="Image 4">
+			</figure>
+			<figure class="gallery__item gallery__item--5">
+				<img src="images/giveus.JPG" class="gallery__img" alt="Image 5">
+			</figure>
+			<figure class="gallery__item gallery__item--6">
+				<img src="images/crazy.jpg" class="gallery__img" alt="Image 6">
+			</figure>
+			<figure class="gallery__item gallery__item--7">
+				<img src="images/mexican.JPG" class="gallery__img" alt="Image 7">
+			</figure>
+			<figure class="gallery__item gallery__item--8">
+				<img src="images/leos.JPG" class="gallery__img" alt="Image 8">
+			</figure>
+			<figure class="gallery__item gallery__item--9">
+				<img src="images/macheko.jpg" class="gallery__img" alt="Image 9">
+			</figure>
+			<figure class="gallery__item gallery__item--10">
+				<img src="images/hotpot.jpg" class="gallery__img" alt="Image 10">
+			</figure>
+			<figure class="gallery__item gallery__item--11">
+				<img src="images/cake.jpg" class="gallery__img" alt="Image 11">
+			</figure>
+			<figure class="gallery__item gallery__item--12">
+				<img src="images/carb.jpg" class="gallery__img" alt="Image 12">
+			</figure>
+			<figure class="gallery__item gallery__item--13">
+				<img src="images/hong.JPG" class="gallery__img" alt="Image 13">
+			</figure>
+			<figure class="gallery__item gallery__item--14">
+				<img src="images/marsh.JPG" class="gallery__img" alt="Image 14">
+			</figure>
+			<figure class="gallery__item gallery__item--15">
+				<img src="images/charc.jpg" class="gallery__img" alt="Image 15">
+			</figure>
+			<figure class="gallery__item gallery__item--16">
+				<img src="images/drinks.jpg" class="gallery__img" alt="Image 16">
+			</figure>
+			<figure class="gallery__item gallery__item--17">
+				<img src="images/glizz.jpg" class="gallery__img" alt="Image 17">
+			</figure>
+			<figure class="gallery__item gallery__item--18">
+				<img src="images/tacotues.jpg" class="gallery__img" alt="Image 18">
+			</figure>
+			<figure class="gallery__item gallery__item--19">
+				<img src="images/thanksgiving.JPG" class="gallery__img" alt="Image 19">
+			</figure>
+			<figure class="gallery__item gallery__item--20">
+				<img src="images/yung.jpg" class="gallery__img" alt="Image 20">
+			</figure>
+			<figure class="gallery__item gallery__item--21">
+				<img src="images/matcha.jpg" class="gallery__img" alt="Image 21">
+			</figure>
+			<figure class="gallery__item gallery__item--22">
+				<img src="images/melon.jpg" class="gallery__img" alt="Image 22">
+			</figure>
+			<figure class="gallery__item gallery__item--23">
+				<img src="images/milk.JPG" class="gallery__img" alt="Image 23">
+			</figure>
+
+
+
+
+
+		</div>
 
 
 
@@ -86,19 +247,38 @@
 
 		<p> Kevin Huang &copy; 2022</p>
 
-		<form action="#" method = "post">
+		<form action="https://formspree.io/f/mnqwgzrn" method = "POST">
 			<fieldset> 
-				<legend>Contact Me:</legend>
-				<label for="name">Name</label>
-				<input type="text" id = "name"><br/>
-				<label> Email: 
-					<input type="email" value = "email@umich.edu">
-				</label><br/>
-				<label for="birth">Date of birth:</label>
-				<input type="date" id = "birth"><br>
-				<input type = "submit" value = "Save!">
+				<legend>Contact Me With Your Inputs!</legend>
+
+				<section class="name">
+					<label for="name">Name</label>
+					<input type="text" id ="name"><br/>
+				</section>
+
+
+				<section class="email">
+					<label> Email: 
+						<input type="email" value = "email@umich.edu">
+					</label><br/>
+				</section>
+
+				<section class="date of birth">
+					<label for="birth">Date of birth:</label>
+					<input type="date" id = "birth"><br>
+			    </section>
+
+				<section class="extra-info">
+					<label for="extra">Send me your criticisms and comments!</label>
+					<br>
+					<textarea id="extra" name="extra" rows="3" cols="40">
+					</textarea>
+				  </section>
+
+				<input type = "submit" value = "Send!">
 			</fieldset>
 		</form>
+		<br><br><br>
 		
 
 	</footer>
